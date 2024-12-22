@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: ["*"],
+    origin: ["http://localhost:5173", "https://akshayachar26.github.io"],
     credentials: true,
   })
 );
